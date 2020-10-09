@@ -34,20 +34,35 @@
 	</div>
 	
 	<!-- Header section start -->
-	<header class="header-section">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="site-logo">
-						<h2><a href="#">⌚</a></h2>
-						<p>Value your time</p>
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-dark navbar-expand-md bg-dark">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="col-md-4">
+						<div class="site-logo">
+							<h2><a href="#">⌚</a></h2>
+							<p>Value your time</p>
+						</div>
+					</div>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav justify-content-end">
+							<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+							<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+							<li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+							<li class="nav-item"><a class="nav-link" href="#education">Education</a></li>							
+							<li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+						</ul>
 					</div>
 				</div>
-				<!-- <div class="col-md-8 text-md-right header-buttons">
-					<a href="#" class="site-btn">Download CV</a>
-					<a href="#" class="site-btn">Discover me</a>
-				</div> -->
-			</div>
+			</nav>
 		</div>
 	</header>
 	<!-- Header section end -->
@@ -63,7 +78,7 @@
 								<h2>Kinza Kanwal</h2>
 								<p>I’m a computer scientist in love with photography, graphic design, sketching and discovering new worlds and cultures.</p>
 							</div>
-							<div class="hero-info">
+							<div id="contact" class="hero-info">
 								<h2>General Info</h2>
 								<ul>
 									<li><span>Date of Birth</span>Jan 11, 200🤔</li>
@@ -113,7 +128,7 @@
 	<!-- Social links section end -->
 
 	<!-- Resume section start -->
-	<section class="resume-section spad">
+	<section id="experience" class="resume-section spad">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xl-7 offset-xl-2">
@@ -165,7 +180,7 @@
 	<!-- Resume section end -->
 
 	<!-- Resume section start -->
-	<section class="resume-section with-bg spad">
+	<section id="education" class="resume-section with-bg spad">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xl-7 offset-xl-2">
@@ -235,7 +250,7 @@
 
 
 	<!-- Portfolio section start -->
-	<section class="portfolio-section spad pb-0">
+	<section id="portfolio" class="portfolio-section spad pb-0">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xl-4 col-md-8 offset-xl-2 ">
